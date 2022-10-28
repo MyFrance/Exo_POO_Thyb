@@ -1,0 +1,7 @@
+class Livre: 
+   pass
+
+harry_potter = Livre()
+print(type(harry_potter))
+
+    
