@@ -1,5 +1,5 @@
 #Créer un attribut de classe 
 
 class Livre:
-        self.prix = 9.99
+    prix = 9.99
         
