@@ -1,0 +1,13 @@
+
+class ListeCustom(list): 
+    pass
+
+# classe héritage
+class Liste(ListeCustom):
+    def __init__(self, liste): 
+        ListeCustom.__init__(self, liste)
+        
+
+liste = ListeCustom()  
+liste.append(5)
+print(liste)
